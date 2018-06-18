@@ -1,62 +1,76 @@
 <!DOCTYPE html>
 <html>
   <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mateusz Urbański | Blog</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<link rel="stylesheet" href="/css/main.css">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="theme-color" content="#2ecc71">
-<link rel="canonical" href="http://maturbanski.github.io/">
-<link rel="alternate" type="application/rss+xml" title="Mateusz Urbański" href="http://maturbanski.github.io/feed.xml" />
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-71898696-1']);
-_gaq.push(['_trackPageview']);
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mateusz Urbański – Software Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="css/minireset.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/user.css">
+    <script defer type="text/javascript" src="js/main.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
   </head>
-  <body class="home">
-    <main class="container">
-        <header class="site-header">
-  <div class="container txt-center">
-    <nav class="navbar">
-    </nav>
-    <a href="/" class="author-thumb">
-      <img src="/images/author.jpg" alt="Author thumbnail" class="dot">
-    </a>
-    <h1>Ruby geek about Ruby stuff.</h1>
-    <hr class="hr">
-  </div>
-</header>
-        <section class="main-content">
-          <section class="posts txt-center container">
-  <nav class="pagination" role="pagination">
-  <ul>
-    <li><span class="page-number">Page  of </span></li>
-  </ul>
-</nav>
-</section>
-        </section>
-        <div class="clearfix"></div>
-<footer class="site-footer txt-center">
-  <hr>
-  <ul class="social">
-        <li><a href="" target="_blank"><i class="icon icon-"></i></a></li>
-        <li><a href="http://github.com/MatUrbanski" target="_blank"><i class="icon icon-github"></i></a></li>
-        <li><a href="" target="_blank"><i class="icon icon-"></i></a></li>
-        <li><a href="https://pl.linkedin.com/in/mateusz-urbański-8b55298b" target="_blank"><i class="icon icon-linkedin"></i></a></li>
-  </ul>
-  <small>&copy; 2016 All rights reserved. Made with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and <i class="icon icon-heart"></i></small>
-</footer>
-    </main>
+  <body>
+    <div id="wallpaper" class="wallpaper" data-image="images/coding.jpg"></div>
+    <div class="content">
+      <aside class="side">
+        <figure id="picture" class="picture">
+          <div class="picture-shadow"></div>
+          <img id="pictureImage" class="picture-image"
+               src="images/photo.jpg"
+               width="320"
+               height="320">
+        </figure>
+      </aside>
+      <main class="about">
+        <h1 class="name">
+          Mateusz Urbański
+        </h1>
+        <p class="job">
+          Software Developer
+        </p>
+        <hr class="hr">
+        <div class="description">
+          <p>
+            I'm software developer currently working at <a class="htd" href="https://htdevelopers.com">HTDevelopers</a>. I mainly use Ruby and Elixir in my daily work.
+          </p>
+          <br>
+          <p>
+            You can click the button above to visit my company website. If you’d like to get in touch, feel free to say hello through any of the social links below.
+          </p>
+        </div>
+        <div class="contact">
+          <a class="button" href="mailto:mateuszurbanski@yahoo.pl">
+            Get in touch
+          </a>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="https://github.com/MatUrbanski">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/mateusz-urbański-8b55298b/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </main>
+    </div>
+    <noscript>
+      <style type="text/css">
+        .wallpaper {
+          animation-name: zoomOut;
+        }
+
+        .picture {
+          animation-name: dropIn;
+        }
+      </style>
+    </noscript>
   </body>
 </html>

@@ -1,0 +1,38 @@
+html {
+  background-color: #151425;
+  background-image: linear-gradient(to bottom right, #b30077, #ff470f);
+  background-image: none;
+  font-family: "Nunito", sans-serif;
+}
+
+.wallpaper {
+  background-image: url("../images/coding.jpg");
+}
+
+.job {
+  color: #ffe479;
+}
+
+.hr {
+  background-image: linear-gradient(to right, #973bfb, #00d0f8);
+  background-image: linear-gradient(to right, #ff470f, #ffe479);
+}
+
+.button {
+  background-color: rgba(255, 71, 15, 0.1);
+  background-image: none;
+  border-image: linear-gradient(to right, #ff470f, #ffe479);
+  border-image-slice: 1;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  color: #ffe479;
+}
+
+.social a {
+  color: #ffe479;
+}
+
+.social a:hover {
+  color: #fff;
+}
